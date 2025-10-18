@@ -1,66 +1,46 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## 🎬 Proyecto Laravel — CRUD de Películas
+Aplicación web desarrollada con Laravel y MySQL que permite gestionar una base de datos de películas mediante un sistema CRUD (Crear, Leer, Actualizar y Eliminar).
+El proyecto implementa un sistema de roles de usuario (👤 Usuario y 🛠️ Administrador) con funcionalidades específicas para cada uno.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 🚀 Tecnologías utilizadas
+Laravel — Framework PHP principal
+MySQL — Base de datos relacional
+Blade — Motor de plantillas para las vistas
+Tailwind CSS / Bootstrap — Estilizado del frontend
+Eloquent ORM — Gestión de modelos y relaciones
+Laravel Breeze / Jetstream — (opcional) para autenticación y gestión de usuarios
 
-## About Laravel
+## 🧩 Funcionalidades principales
+👤 Usuario normal:
+Ver la lista completa de películas
+Consultar los detalles de una película
+Añadir comentarios o reseñas (según configuración)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🛠️ Administrador:
+Crear, editar y eliminar películas
+Gestionar los usuarios registrados
+Modificar los comentarios o reseñas inapropiadas
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🧠 Objetivo del proyecto
+El propósito de este proyecto es aprender y practicar el desarrollo de aplicaciones web completas con Laravel, incluyendo:
+Implementación del patrón MVC
+Conexión y gestión de datos con MySQL
+Autenticación y control de roles
+CRUD completo con formularios y validaciones
+Buenas prácticas en arquitectura y diseño
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🧑‍💻 Roles de acceso
+Rol	Permisos
+Administrador	Crear, editar, eliminar películas y gestionar usuarios
+Usuario	Ver películas y dejar comentarios
 
-## Learning Laravel
+## 📸 Imágenes
+<img width="1405" height="851" alt="image" src="https://github.com/user-attachments/assets/23d00108-9d01-412e-a953-23234b68a969" />
+<img width="1421" height="829" alt="image" src="https://github.com/user-attachments/assets/4b982568-1f08-4737-a8a3-a4d286573a38" />
+<img width="1418" height="865" alt="image" src="https://github.com/user-attachments/assets/ec4a1cd4-09a2-4d2c-b800-0702bb155623" />
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 📬 Contacto
+Si quieres saber más sobre el proyecto o proponer mejoras:
+📧 Email: guillem.masdeu97@gmail.com
+💼 LinkedIn: linkedin.com/in/guillem9masdeu
+🧠 GitHub: github.com/g-masdeu
