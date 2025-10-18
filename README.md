@@ -41,6 +41,7 @@ Usuario	Ver películas y dejar comentarios
 
 ## 📬 Contacto
 Si quieres saber más sobre el proyecto o proponer mejoras:
+
 📧 Email: guillem.masdeu97@gmail.com
 
 💼 LinkedIn: linkedin.com/in/guillem9masdeu
